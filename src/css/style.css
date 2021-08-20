@@ -1,0 +1,586 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src:
+    local('Montserrat');
+    font-family: 'Playfair Display', sans-serif;
+    src:
+    local('Playfair Display');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: #AE7C78;
+}
+
+/* Шапка */
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #AE7C78;
+  text-decoration: none;
+}
+
+nav {
+    margin-top: 26px;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+
+nav.main-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0 120px;
+}
+
+.main-menu li {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.main-menu img {
+    margin: 16px 0;
+}
+
+.main-information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+section .main-text {
+    width: 384px;
+    margin-top: 81px;
+}
+
+section h1 {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+
+    color: #AE7C78;
+}
+section h1 span {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: italic;
+}
+
+section h2 {
+    margin: 24px 0 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #AE7C78;
+}
+
+section .btn-catalog {
+    display: block;
+    margin-top: 64px;
+
+    width: 285px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: unset;
+    cursor: pointer;
+}
+
+section .img-flowers-1 {
+    margin-left: 23px;
+    margin-top: 140px;
+}
+
+section .img-flowers-2 {
+    margin-left: 20px;
+    margin-top: 82px;
+}
+
+/* Преимущества */
+
+section .container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+section .block {
+    display: flex;
+}
+
+section .card_text {
+    margin-left: 20px;
+    width: 285px;
+}
+
+section .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+section .subtext {
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+/* Популярные букеты */
+
+.popular-bucket .info-bucket-w-img {
+    display: flex;
+    justify-content: center;
+}
+
+.popular-bucket .info-bucket-w-img .bucket-info {
+    margin-top: 63px;
+    width: 387px;
+}
+
+.popular-bucket .info-bucket-w-img img {
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.popular-bucket h2 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+.popular-bucket .bucket-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+.popular-bucket .bucket-info h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.popular-bucket .bucket-info .name-bucket {
+    margin: 0;
+}
+
+.popular-bucket .bucket-info .descrp {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.popular-bucket .bucket-info .size {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.popular-bucket .bucket-info .price {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.popular-bucket .bucket-info button {
+    margin-top: 64px;
+
+    width: 285px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: unset;
+    cursor: pointer;
+}
+
+.popular-bucket .arrow {
+    margin-top: 16px;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.popular-bucket .arrow img:first-child {
+    margin-right: 20px;
+}
+
+/* Каталог */
+
+.chapter-catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chapter-catalog {
+    margin: 74px 0 0;
+    padding: 0 120px;
+}
+
+/* Скидка */
+
+.sale {
+    display: flex;
+    margin: 80px auto 0;
+    width: 1200px;
+    height: 391px;
+
+    background: #AE7C78;
+}
+
+.sale img {
+    float: right;
+}
+
+.sale .text-sale {
+    margin: 40px 20px 0 102px;
+    width: 488px;
+}
+
+.sale .percent {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sale .conditions {
+    margin: 24px 0 0;
+    width: 387px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/* Шаги */
+
+.steps h2 {
+    margin: 80px 0 36px;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+.steps .all-cards-steps {
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps .card-step {
+    width: 285px;
+}
+
+
+.steps .card-step img {
+    display: block;
+    margin: 0 auto;
+}
+
+.steps .card-step h3 {
+    text-align: center;
+    margin: 8px 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.steps .card-step h4 {
+    text-align: center;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+/* Новости */
+
+.news {
+    width: 1200px;
+    height: 460px;
+    display: flex;
+    margin: 80px auto;
+}
+
+.news h2 {
+    width: 487px;
+    margin: 70px 21px 40px 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+
+    color: #AE7C78;
+}
+
+.news h3 {
+    width: 387px;
+    margin: 0 0 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #AE7C78;
+}
+
+.news .soc-sites {
+    width: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .news-stack {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+
+.news .right-img {
+    margin-left: 20px;
+}
+
+/* Отзывы */
+
+.review {
+    width: 1200px;
+    height: 308px;
+    margin: 0 auto 80px;
+    padding: 40px 44px 64px;
+
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+}
+
+.review h2 {
+    margin: 0 0 40px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+.review .review-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .review-text {
+    width: 300px;
+}
+
+.review h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    text-align: center;
+}
+
+.review p {
+    margin: 16px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    text-align: center;
+}
+
+/* Контакты (карта) */
+
+.contact {
+    padding: 52px 0 0 222px;
+    height: 645px;
+    background-image: url(/src/img/map.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact .rect {
+    padding: 40px 0 0 35px;
+    width: 386px;
+    height: 520px;
+
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
+
+.contact h2 {
+    margin: 0 0 42px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.contact p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #AE7C78;
+}
+
+.contact span {
+    margin: 0;
+    font-weight: 500;
+}
+
+.contact .adress {
+    margin: 21px 0 32px;
+}
+
+.contact .time {
+    margin: 14px 0 30px;
+}
+
+.contact .tel {
+    margin: 14px 0 35px;
+}
+
+.contact .mail {
+    margin: 17px 0 0;
+}
+
+/* Footer Подвал */
+
+footer {
+    height: 97px;
+    background: #AE7C78;
+    display: flex;
+}
+
+footer .logo-footer {
+    margin: 24px 103px 0 125px;
+}
+
+footer ul {
+    width: 795px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    margin-top: 30px;
+    margin-bottom: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .soc-sites {
+    margin: 30px 0 0 105px;
+    width: 97px;
+    display: flex;
+    justify-content: space-between;
+}
